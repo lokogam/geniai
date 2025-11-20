@@ -21,3 +21,46 @@ Depois de efetuar um pagamento bem-sucedido de US$ 5 ou mais (nível de uso 1), 
 ![captura-02](https://github.com/user-attachments/assets/518e49b4-4f15-4e2b-823d-006c8f139bf3)
 
 ![captura-03](https://github.com/user-attachments/assets/b831a716-ee8c-464f-a6c7-4d7304fc5c03)
+# GenIAI Local Plugin Documentation
+
+## Overview
+This is a local Moodle plugin that integrates AI capabilities into the Moodle learning management system.
+
+## API Reference
+For detailed API documentation, please refer to:
+- [Moodle Plugin Development Documentation](https://docs.moodle.org/dev/Plugin_files)
+- [Moodle Local Plugin API](https://docs.moodle.org/dev/Local_plugins)
+- [Moodle Web Services API](https://docs.moodle.org/dev/Web_services_API)
+
+## Recent Changes
+This section documents the latest modifications and updates to the plugin:
+- Feature implementations
+- Bug fixes
+- Performance improvements
+- Security updates
+
+## Installation Guide
+
+### Prerequisites
+- Moodle 3.9 or higher
+- PHP 7.4 or higher
+- Required PHP extensions for AI processing
+
+### Installation Steps
+1. Download the plugin files
+2. Extract to `/local/geniai/` directory in your Moodle installation
+3. Log in as administrator
+4. Navigate to Site Administration > Notifications
+5. Follow the installation prompts
+6. Configure plugin settings as needed
+
+### Configuration
+After installation, configure the plugin through:
+- Site Administration > Plugins > Local plugins > GenIAI
+
+## Reference Links
+- [Moodle Developer Documentation](https://docs.moodle.org/dev/)
+- [Plugin Development Guidelines](https://docs.moodle.org/dev/Plugin_development)
+- [Moodle Coding Style](https://docs.moodle.org/dev/Coding_style)
+- [Local Plugin Structure](https://docs.moodle.org/dev/Local_plugins)
+

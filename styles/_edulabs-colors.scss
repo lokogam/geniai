@@ -1,0 +1,70 @@
+// Edu Labs Color Palette
+$primary-color: #561682;
+$secondary-color: #f58020;
+$tertiary-color: #e8bc40;
+$neutral-color: #dadada;
+
+// Sobrescribir colores del chat
+#geniai-chat {
+    // Color principal del header
+    .geniai-popup #geniai-scrollarea .geniai-header {
+        background-color: $primary-color !important;
+    }
+    
+    // Botón flotante
+    #geniai-chat-btn {
+        background-color: $primary-color !important;
+    }
+    
+    // Mensajes del servidor
+    .geniai-popup #geniai-scrollarea #geniai-area-mensagens .geniai-message.geniai-server {
+        background-color: lighten($tertiary-color, 20%) !important;
+        color: darken($primary-color, 10%) !important;
+    }
+    
+    // Botón de grabación
+    .geniai-popup #geniai-sendarea #geniai-icon-mic.recording {
+        background-color: $secondary-color !important;
+        
+        @keyframes geniai-pulse {
+            0%, 100% {
+                background-color: $secondary-color;
+            }
+            50% {
+                background-color: lighten($secondary-color, 15%);
+            }
+        }
+    }
+}
+
+// Sobrescribir colores de H5P Manager
+.h5p-manager-page {
+    // Acordeón
+    .ui-accordion .ui-state-default {
+        background: $primary-color !important;
+    }
+    
+    .ui-accordion .ui-state-hover,
+    .ui-accordion .ui-state-active {
+        background: darken($primary-color, 5%) !important;
+    }
+    
+    // Diálogo
+    .ui-dialog .ui-widget-header {
+        background: $primary-color !important;
+    }
+    
+    // Switch
+    .el-switch > input[type=checkbox]:checked + .el-switch-style {
+        background: $primary-color !important;
+    }
+    
+    // Barra de reproducción
+    .audioplayer-bar-played {
+        background: linear-gradient(to right, $primary-color, $secondary-color) !important;
+    }
+    
+    .audioplayer-playing .audioplayer-bar-played::after {
+        border: 2px solid $primary-color !important;
+    }
+}

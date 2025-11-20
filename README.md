@@ -173,9 +173,9 @@ En la configuración del plugin puedes ajustar:
 
 ![captura-01](docs/capture/Screenshot%202025-11-20%20161853.png)
 
-![captura-02](docs/capture/Screenshot%202025-11-20%20161910.png)
+![captura-02](docs/capture/Screenshot%202025-11-20%20162002.png)
 
-![captura-03](docs/capture/Screenshot%202025-11-20%20161930.png)
+![captura-03](docs/capture/Screenshot%202025-11-20%20162530.png)
 
 ---
 
